@@ -4,7 +4,7 @@ import { API } from '../config';
 // This is a placeholder for the actual OpenAI API key
 // In a production environment, this should be stored securely on the server
 const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY
-console.log(OPENAI_API_KEY)
+
 /**
  * Fetch all products from the API
  * @returns {Promise<Array>} - A promise that resolves to an array of products
@@ -97,7 +97,7 @@ const fetchOrderStatus = async (orderId, token) => {
  */
 export const askAboutProducts = async (query, user = null) => {
   try {
-    console.log(OPENAI_API_KEY)
+  
 
     // If no OpenAI API key is provided, return a fallback response
     if (!OPENAI_API_KEY || OPENAI_API_KEY === 'your-openai-api-key') {
