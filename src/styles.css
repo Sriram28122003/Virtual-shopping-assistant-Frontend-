@@ -1,0 +1,96 @@
+/**
+ * Border Radius & Button Styling
+ */
+ .btn,
+ .jumbotron,
+ .nav :hover {
+   border-radius: 8px;
+ }
+ 
+ /**
+  * Cart Badge
+  */
+ .cart-badge,
+ .cart-badge:hover {
+   border-radius: 50%;
+   padding: 4px 6px;
+   font-size: 12px;
+   font-style: normal;
+   background-color: #333;
+   color: #fff;
+   font-weight: bold;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ /**
+  * Single Product Page - Product Name
+  */
+ .name {
+   background: #4f46e5; /* Tailwind Indigo-600 */
+   color: #fff;
+   font-weight: 600;
+   font-size: 20px;
+   padding: 6px 12px;
+   border-radius: 6px;
+ }
+ 
+ /**
+  * Soft Gray Shades (Black 10-5)
+  */
+ .black-10 {
+   background: #f9fafb; /* Very light gray */
+ }
+ .black-9 {
+   background: #f3f4f6;
+ }
+ .black-8 {
+   background: #e5e7eb;
+ }
+ .black-7 {
+   background: #d1d5db;
+ }
+ .black-6 {
+   background: #9ca3af;
+ }
+ .black-5 {
+   background: #6b7280;
+ }
+ 
+ /**
+  * Product Image on Card
+  */
+ .product-img {
+   min-height: 160px;
+   border-radius: 12px;
+   object-fit: cover;
+   width: 100%;
+ }
+ 
+ /**
+  * Jumbotron Headline
+  */
+ .jumbotron h2 {
+   margin-top: -10px;
+   font-size: 32px;
+   font-weight: 700;
+   letter-spacing: 0.5px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .jumbotron h2 {
+     margin-top: 10px;
+     font-size: 24px;
+   }
+ }
+ 
+ /**
+  * Jumbotron Animation - Gradient Background
+  */
+.jumbotron {
+   height: 100px;
+   color: #ffffff;
+   background: linear-gradient(135deg, #6366f1, #ec4899, #06b6d4, #10b981); /* Indigo-Pink-Cyan-Green */
+   background-size: 400% 400%;
+   animation: Gradient 15s ease infinite;
+   display:
+}
